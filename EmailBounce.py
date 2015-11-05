@@ -40,3 +40,4 @@ except SMTPResponseException:
     print "Check all the addresses in the TO, CC and BCC field. There should be an error or a misspelling somewhere."
   else:
     print error_code+": "+error_message
+#edited indents
