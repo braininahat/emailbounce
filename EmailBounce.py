@@ -13,7 +13,7 @@ This is a test e-mail message.
 try:
     smtpObj = smtplib.SMTP('smtp.gmail.com',587)
     smtpObj.starttls()
-    smtpObj.login(sender,'bumbleber')
+    smtpObj.login(sender,'pass')
     smtpObj.sendmail(sender,receivers,message)
     print "Successfully sent email"
 except SMTPResponseException as e:
